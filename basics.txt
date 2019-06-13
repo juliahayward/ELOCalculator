@@ -1,0 +1,72 @@
+http://www.bkgm.com/articles/McCool/ratings.html
+
+All backgammon players on FIBS have a rating. This is useful, for example, if you want to find a match with a player of roughly the same ability, or if you decide you want to try to play against an opponent somewhat stronger than you are in order to challenge yourself and learn how better players play the game. A player's rating is shown when you type "whois so-and-so" and, for players with 50 or more experience, when you type "rating so-and-so".
+
+But how does the FIBS rating system work? Well, it's very simple really. Anyone with at least three semesters of calculus should be able to understand it after a few weeks of study. OK, just kidding. It's not that hard, though it is a bit involved. Here's how it works:
+
+For starters, the rating is a number ranging from about 1000 to about 2000. A few of the thousands of players on FIBS have ratings outside those limits, but well over 99% fall in that range. FIBS assigns any new player logging in for the first time a 1500 rating. The rating changes each time you complete a match. (During a multi-game match, the rating does not change after each game; it will remain the same until the match is over.) One exception to this: unlimited matches do not affect ratings in any way.
+
+When calculating the change in ratings by winning or losing a match, FIBS takes three factors into account:
+
+The length of the match.
+The experience of the player.
+The difference in ratings between the two players.
+A one-point match played between two "experienced" players [see below] with identical ratings is worth 2 points; that is, the winner's rating will go up exactly 2.00 points, while the loser's rating will go down exactly 2.00 points.
+
+Now let's see how the three factors -- match length, player experience, and player ratings -- affect the ratings calculations when a match is played.
+
+Match Length.
+For matches of longer duration than 1, the rating change is multiplied by the square root of the length of the match. (OK, so maybe it isn't quite as easy as I implied, but hang in there!) So, for example, a 4- point match would be worth twice as much as a 1-point match. Why twice? Because the square root of 4 is 2, so the match is worth 2 times what a 1-point match would be worth. A 9-point match is worth 3 times as much; a 16-point match is worth 4 times as much. Many FIBS matches are 3, 5, or 7 points long (most backgammon players like odd numbers for their match lengths), so it's not as easy to figure those in your head, but hopefully you get the idea. A 5-point match is worth a little bit more than twice the 1-point match (the square root of 5 is roughly 2.236). And so on. Just remember that the rating change is proportionate to the square root of the length of the match.
+
+Oh! One other important note: the match length is the length agreed upon when the invitation was accepted, not the final score. In other words, a 5-point match will always count for 5 in both rating and experience calculations, regardless of whether the final score was 12-0 or 5-4.
+
+Player Experience.
+FIBS takes a player's experience into account when determining the rating change after a match is completed. Only a player's own experience level is used in this calculation; not the opponent's experience. FIBS considers a player to be "experienced" when the player has an experience level of 400 or more. This number is simply the running total of the length of all matches completed. In other words, a "newbie" starts with experience 0; after completing a 1-point match, the experience would change to 1; after a 5-point match, it would then increase to 6; and so on. FIBS adds the length of the match to the player's experience before performing the ratings calculation. If your rating is 400 or higher when the match is over, experience does not affect the ratings calculation as described above; i.e., if you win a 1-point match against someone with an identical rating, and your experience after completing the 1-point match is 400 or more, your rating will go up exactly 2 points. If experience level is less than 400, the rating change for that player will be more: If experience is 300, the rating change is doubled. If experience is 200, rating change is tripled. Experience of 100 means rating change is quadrupled. And for an experience level of 0 (let's see how closely you've been paying attention; why is this not possible?) the rating change is quintupled (OK, this is getting out of hand...it's multiplied by 5!) This is actually a continuous function, i.e., experience of 350 results in an experience factor of 1.5; 385 would result in 1.15; and so on. The experience factor never falls below 1. For those of you who have fond memories of your high school algebra class, the experience factor is either 1 or 5-(E/100), whichever is greater, (where E is the individual's experience after adding in the length of the completed match). OK? Still with me?
+
+So, what does all this mean? Simply that once it is 400 or more, your experience level isn't a factor in your rating change calculations. When you're very new on FIBS, and for your first several hundred games, your rating is very volatile and will go up and down a lot.
+
+Player Ratings.
+FIBS takes player ratings into account when calculating ratings changes. If you defeat the best player on FIBS, your rating should go up a lot more than if you beat the worst player; similarly, if you lose to the best player on FIBS, your rating shouldn't suffer nearly as much as if you had lost to the worst player on FIBS. FIBS does, in fact, work this way! Some people mistakenly think they will automatically hurt their rating by playing stronger players, and help their rating by playing weaker players. Not so! FIBS takes all this into account. Let's see how:
+
+FIBS calculates the probability of winning a match based on the difference in ratings between the two players and the length of the match. The larger the difference in ratings, the more "mismatched" the two opponents are, and the higher the probability of the favorite winning any given game of the match. The longer the match, the more likely the best player will win the match. (Usually, the longer the match, the more likely it is that the luck of the dice will even out and the more likely it is that the better player's skill and knowledge will prevail). The formula for this is very complicated, and I assume most readers' eyes will glaze over and they'll stop reading as soon as I give it, so it appears LAST in this article! Let's instead use examples. Two players of identical rating are each 50% favorites to win the match, whatever its length. A player with a rating 100 points higher than the opponent is a 52.9% favorite to win a 1-point match. Not a huge difference. However, that same 100-point rating differential results in a different prediction by FIBS when the match is longer. For example, in a 13-point match, the 100-point higher rated player is a 60.2% favorite to win the match. Note that it doesn't matter whether this is a 1900-rated player playing an 1800-rated player or a 1300 vs. a 1200; it's the difference between the two ratings that FIBS uses; it simply subtracts one rating from the other.
+
+Let's look at another example. This time a 1700-rated player plays a 1- point match with a 1400-rated player. The 300-point difference in their ratings results in the higher-rated player being considered by FIBS to be a 58.5% favorite. When the match length increases, the higher-rated player becomes even more favored. For a 3-point match, the 1700-player is considered a 64.5% favorite; for a 5-point match, 68.4%; for a 7-point match, 71.4%; 9-point: 73.8%; 11-point: 75.9%; and a 13-point match finds the 1700-rated player to be a 77.6% favorite.
+
+So how does FIBS use the player rating in calculating the rating change after a match? Again, before we let the actual formula perform its evil brain-deadening deed on you, let's just look at it in more human terms. If you play a higher-rated player whom FIBS calculates is an overwhelming 75% favorite to win the match, and if you played that player 100 matches, FIBS assumes you'll win 25 of those matches, and that you'll lose the other 75. If you do, in fact, win 25 and lose 75, your rating won't have changed after those 100 matches! Neither will your opponent's! Whenever you win against such a higher-rated opponent, your rating will go up by 3 times as many points as it will go down when you lose. Since you'll lose 3 times as many of these matches as you'll win, the net result will be no change. This is the theory, anyway. Many FIBS players have their own theories as to whether or not the FIBS formula accurately predicts the outcome of matches. I don't know if it does or not; I am just explaining how the formula works.
+
+OK, now the formula:
+
+What do the variables mean?
+n = the length of the match.
+P1 = the rating of Player 1.
+P2 = the rating of Player 2.
+E1 = the experience of Player 1 right before finishing the match.
+E2 = the experience of Player 2 right before finishing the match.
+PE1 = experience factor for Player 1 (calculated).
+PE2 = experience factor for Player 2 (calculated).
+D = the difference between the two ratings (calculated).
+F = the probability of the favorite winning the match (calculated).
+U = the probability of the underdog winning the match (calculated).
+How are the Variables calculated?
+D = absolute value of P1-P2
+U = 1/(10^(D*SQRT(n)/2000)+1)
+F = 1-U
+PE1 = maximum(1, 5-((E1+n)/100))
+PE2 = maximum(1, 5-((E2+n)/100))
+How is the rating change calculated?
+If Player 1 is higher rated and wins, P1's rating increases by
+4*PE1*SQRT(n)*U
+If Player 1 is higher rated and loses, P1's rating decreases by
+4*PE1*SQRT(n)*F
+If Player 1 is lower rated and wins, P1's rating increases by
+4*PE1*SQRT(n)*F
+If Player 1 is lower rated and loses, P1's rating decreases by
+4*PE1*SQRT(n)*U
+If Player 2 is higher rated and wins, P2's rating increases by
+4*PE2*SQRT(n)*U
+If Player 2 is higher rated and loses, P2's rating decreases by
+4*PE2*SQRT(n)*F
+If Player 2 is lower rated and wins, P2's rating increases by
+4*PE2*SQRT(n)*F
+If Player 2 is lower rated and loses, P2's rating decreases by
+4*PE2*SQRT(n)*U
